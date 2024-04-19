@@ -1,38 +1,73 @@
-# create-svelte
+# svelte-maplibre-starter
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![README](static/README03.svg)
 
-## Creating a project
+<br>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<img src="static/README04.svg" width="100" alt="README">
 
+<br>
+
+Start MapLibre GL JS and Svelte easily.
+
+- Svelte Maplibre v0.8.4
+- Svelte v4.2.7
+- SvelteKit v2.0.0
+- node v19.0.0
+- pnpm v8.15.1
+
+# Usage
+
+<img src="static/README02.png" width="300" alt="README">
+
+<br>
+
+Install package
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+pnpm install
 ```
 
-## Developing
+<br>
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
+<br>
+
+code format
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm run format
 ```
 
-## Building
+<br>
 
-To create a production version of your app:
-
+build
 ```bash
-npm run build
+pnpm run build
 ```
 
-You can preview the production build with `npm run preview`.
+<br>
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+dev
+```bash
+pnpm run dev
+```
+
+<br>
+
+Unit Tests
+```sh
+pnpm run test:unit
+```
+
+<br>
+
+Lint
+```sh
+pnpm run lint
+```
+
+<br>
+<br>
+
+![README01](static/README01.gif)
+
+<br>
