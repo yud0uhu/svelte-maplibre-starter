@@ -23,16 +23,17 @@ Start MapLibre GL JS and Svelte easily.
 <br>
 
 Install package
+
 ```bash
 pnpm install
 ```
 
 <br>
 
-
 <br>
 
 code format
+
 ```bash
 pnpm run format
 ```
@@ -40,6 +41,7 @@ pnpm run format
 <br>
 
 build
+
 ```bash
 pnpm run build
 ```
@@ -47,6 +49,7 @@ pnpm run build
 <br>
 
 dev
+
 ```bash
 pnpm run dev
 ```
@@ -54,6 +57,7 @@ pnpm run dev
 <br>
 
 Unit Tests
+
 ```sh
 pnpm run test:unit
 ```
@@ -61,6 +65,7 @@ pnpm run test:unit
 <br>
 
 Lint
+
 ```sh
 pnpm run lint
 ```
@@ -71,3 +76,13 @@ pnpm run lint
 ![README01](static/README01.gif)
 
 <br>
+
+# References
+
+- [Svelte MapLibre](https://github.com/dimfeld/svelte-maplibre)
+- [maplibregljs-svelte-starter](https://github.com/mug-jp/maplibregljs-svelte-starter?tab=readme-ov-file)
+
+# Credits
+
+- Svelte Logo created by [Svelte logo](https://github.com/sveltejs/branding)
+- Svelte Maplibre Logo created by [Bruce Wayyn](https://github.com/brucewayyn)
